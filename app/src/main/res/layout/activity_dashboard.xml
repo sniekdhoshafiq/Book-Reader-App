@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#795548"
+    android:layout_margin="7dp"
+    android:padding="10dp"
+    android:gravity="top|center"
+    tools:context=".Dashboard"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/imgCriminalPsychology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/criminal_psychology"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imgOriginOfSpices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/on_the_origin_of_species"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imgPridePrejudice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pride_prejudice"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imgArtOfWar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/the_art_of_war"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imgWarOfTheWorld"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/the_war_of_the_world"
+                android:layout_margin="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
